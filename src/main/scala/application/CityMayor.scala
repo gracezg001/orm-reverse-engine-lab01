@@ -39,7 +39,9 @@ object CityMayor extends App{
   }
 
  // override val columns = Seq("id", "name", "countrycode", "district", "population")
- var nc = City.create(id = 1000000, name = "Ford", countrycode = "CAN", district = "Ontario", population = 5000)
+ //var nc = City.create(id = 1000000, name = "Ford", countrycode = "CAN", district = "Ontario", population = 5000)
+ var nc = City.create(id = 1000001, name = "Honda", countrycode = "CAN", district = "Ontario", population = 15000)
+
   println(nc)
 
   println("==================================Completed Normally!=======================================")
